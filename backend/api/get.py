@@ -13,3 +13,6 @@ async def get_user(user_id: int, role: str):
     return {"user_id": user_id, "role": role}
 
 
+
+
+
