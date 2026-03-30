@@ -1,7 +1,7 @@
 ./*/venv # Ignore virtual environments in any subdirectory
 ./venv # Ignore virtual environment in the root directory
 __pycache__/ # Ignore Python bytecode cache directories
-*.pyc # Ignore compiled Python files
+*.cpython-313.pyc # Ignore compiled Python files
 *.pyo # Ignore optimized Python files
 *.pyd # Ignore Python dynamic libraries
 *.log # Ignore log files
