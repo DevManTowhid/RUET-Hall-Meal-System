@@ -1,0 +1,16 @@
+./*/venv # Ignore virtual environments in any subdirectory
+./venv # Ignore virtual environment in the root directory
+__pycache__/ # Ignore Python bytecode cache directories
+*.pyc # Ignore compiled Python files
+*.pyo # Ignore optimized Python files
+*.pyd # Ignore Python dynamic libraries
+*.log # Ignore log files
+.DS_Store # Ignore macOS Finder metadata files
+.idea/ # Ignore JetBrains IDE project files
+.vscode/ # Ignore Visual Studio Code project files
+.git/ # Ignore Git repository directories
+.gitignore # Ignore the .gitignore file itself
+.env # Ignore environment variable files
+.env.* # Ignore environment variable files with specific names (e.g., .env.local)
+*.bak # Ignore backup files
+*.tmp # Ignore temporary files
